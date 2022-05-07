@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>subject</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-card>
+      <ion-card-header>
+        <ion-item>
+          <ion-card-title>English</ion-card-title>
+          <ion-button fill="outline" slot="end" routerLink="/questions" (click)="setSubject('Math')">Start</ion-button>
+        </ion-item>
+      </ion-card-header>
+
+      <ion-card-content>
+        Test out your English Language Arts skills by answering questions based on vocabulary, definitions and whatever
+        else.
+        (edit this line)
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-item>
+          <ion-card-title>Math</ion-card-title>
+          <ion-button fill="outline" slot="end" (click)="setSubject('English')">Start</ion-button>
+        </ion-item>
+      </ion-card-header>
+
+      <ion-card-content>
+        Test out your mathematical skills by answering questions based on solving equations, simplifying expressions and
+        solving moderate arithmetic problems.
+        (edit this line)
+      </ion-card-content>
+    </ion-card>
+  </ion-grid>
+</ion-content>
