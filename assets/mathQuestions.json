@@ -1,0 +1,234 @@
+{
+    "math" : [
+       { 
+            "id": "1",
+            "figure": "h(x)=-4(x-1)+2",
+            "question": "The function h is defined above. for what value of x is h(x)=-2?",
+            "choices": {
+                "c1": {
+                    "value": "2",
+                    "truth": "true"
+                },
+                "c2": {
+                    "value": "-2",
+                    "truth": "false"
+                },
+                "c3": {
+                    "value": "-1",
+                    "truth": "false"
+                },
+                "c4": {
+                    "value": "1",
+                    "truth": "false"
+                }
+            }
+        },
+        { 
+            "id": "2",
+            "figure": "",
+            "question": "A geographer found that the land area of Aruba is 75 square miles and the land area of Bermuda is 19 square miles. Based on these data, the geographer used the equation 75x+19y = T to estimate the total number of residents, T, of the two islands. Which is the best interpretation of x in this context?",
+            "choices": {
+                "c1": {
+                    "value": "The population density, in residents per square mile,of Aruba.",
+                    "truth": "true"
+                },
+                "c2": {
+                    "value": "The total number of residents of Aruba",
+                    "truth": "false"
+                },
+                "c3": {
+                    "value": " The number of square miles of Aruba",
+                    "truth": "false"
+                },
+                "c4": {
+                    "value": "The total number of residents of both islands",
+                    "truth": "false"
+                }
+            }
+        },
+        { 
+            "id": "3",
+            "figure": "C=(5/9)*(R-491.67)",
+            "question": "The equation above expresses the temperature C, in degrees Celsius, in terms of the temperature R, in degrees Rankine. Which of the following expresses the temperature in degrees Rankine in terms of the temperature in degrees Celsius? ",
+            "choices": {
+                "c1": {
+                    "value": "",
+                    "truth": "true"
+                },
+                "c2": {
+                    "value": "",
+                    "truth": "false"
+                },
+                "c3": {
+                    "value": "-",
+                    "truth": "false"
+                },
+                "c4": {
+                    "value": "",
+                    "truth": "false"
+                }
+            }
+        },
+        { 
+            "id": "4",
+            "figure": "",
+            "question": "which of the following is an equation of the line in the xy-plane that contains the points (1,3) and (5,15)?",
+            "choices": {
+                "c1": {
+                    "value": "y=3x",
+                    "truth": "true"
+                },
+                "c2": {
+                    "value": "y=2x+5",
+                    "truth": "false"
+                },
+                "c3": {
+                    "value": "y=x+2",
+                    "truth": "false"
+                },
+                "c4": {
+                    "value": "y=(1/3)x",
+                    "truth": "false"
+                }
+            }
+        },
+        { 
+            "id": "5",
+            "figure": "",
+            "question": "what is the y-intercept of the graph y=4^x in the xy-plane",
+            "choices": {
+                "c1": {
+                    "value": "(0,1)",
+                    "truth": "true"
+                },
+                "c2": {
+                    "value": "(1,4)",
+                    "truth": "false"
+                },
+                "c3": {
+                    "value": "(1,0)",
+                    "truth": "false"
+                },
+                "c4": {
+                    "value": "(4,1)",
+                    "truth": "false"
+                }
+            }
+        },
+        { 
+            "id": "6",
+            "figure": "(x^2)-14x+40=2x+1",
+            "question": "what is the sum of the solutions to the given equation",
+            "choices": {
+                "c1": {
+                    "value": "16",
+                    "truth": "true"
+                },
+                "c2": {
+                    "value": "-14",
+                    "truth": "false"
+                },
+                "c3": {
+                    "value": "-16",
+                    "truth": "false"
+                },
+                "c4": {
+                    "value": "14",
+                    "truth": "false"
+                }
+            }
+        },
+        { 
+            "id": "7",
+            "figure": "",
+            "question": "if s=4, what is the value of 20s-15s?",
+            "choices": {
+                "c1": {
+                    "value": "20",
+                    "truth": "true"
+                },
+                "c2": {
+                    "value": "4",
+                    "truth": "false"
+                },
+                "c3": {
+                    "value": "5",
+                    "truth": "false"
+                },
+                "c4": {
+                    "value": "15",
+                    "truth": "false"
+                }
+            }
+        },
+        { 
+            "id": "8",
+            "figure": "",
+            "question": "a field has a perimeter of 960 feet. of the following which is the closest to the perimeter of the field in meters? ( 1 foot = 0.3048 meter)",
+            "choices": {
+                "c1": {
+                    "value": "290",
+                    "truth": "true"
+                },
+                "c2": {
+                    "value": "89",
+                    "truth": "false"
+                },
+                "c3": {
+                    "value": "3,200",
+                    "truth": "false"
+                },
+                "c4": {
+                    "value": "10,000",
+                    "truth": "false"
+                }
+            }
+        },
+        { 
+            "id": "9",
+            "figure": "",
+            "question": "what is 120% of 2,000?",
+            "choices": {
+                "c1": {
+                    "value": "2,400",
+                    "truth": "true"
+                },
+                "c2": {
+                    "value": "240",
+                    "truth": "false"
+                },
+                "c3": {
+                    "value": "400",
+                    "truth": "false"
+                },
+                "c4": {
+                    "value": "4,000",
+                    "truth": "false"
+                }
+            }
+        },
+        { 
+            "id": "10",
+            "figure": "",
+            "question": "in 1855, Louis Remme traveled from Sacramento, California to Portlan, Oregon, stopping to rest for only 10 hours of the 143 hours it took him to reach Portland. if his average speed whjile traveling without reasting was 5 miles per hour, how many miles did Louis Remme travel?",
+            "choices": {
+                "c1": {
+                    "value": "665",
+                    "truth": "true"
+                },
+                "c2": {
+                    "value": "705",
+                    "truth": "false"
+                },
+                "c3": {
+                    "value": "715",
+                    "truth": "false"
+                },
+                "c4": {
+                    "value": "765",
+                    "truth": "false"
+                }
+            }
+        }
+    ]
+}
