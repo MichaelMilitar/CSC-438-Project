@@ -22,6 +22,10 @@ const routes: Routes = [
     path: 'questions',
     loadChildren: () => import('./questions/questions.module').then( m => m.QuestionsPageModule)
   },
+  {
+    path: 'question-set',
+    loadChildren: () => import('./question-set/question-set.module').then( m => m.QuestionSetPageModule)
+  },
 
 
 ];

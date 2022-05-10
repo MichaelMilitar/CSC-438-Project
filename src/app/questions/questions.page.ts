@@ -10,6 +10,7 @@ export class QuestionsPage implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

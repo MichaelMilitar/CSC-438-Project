@@ -11,10 +11,5 @@ export class SubjectPage implements OnInit {
 
   ngOnInit() {
   }
-
-  setSubject(subject) {
-    console.log(subject)
-    //need to pass subject to the question page so that question page can load correct data
-  }
-
+  
 }

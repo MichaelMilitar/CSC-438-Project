@@ -1,0 +1,94 @@
+[
+    {
+     "id": "1",
+     "figure": "what word is defined by the following",
+     "question": "to make ashamed",
+     "choices": [
+        {
+            "value": "abash",
+            "truth": "true"
+        },
+        {
+            "value": "F",
+            "truth": "false"
+        },
+        {
+            "value": "F",
+            "truth": "false"
+        },
+        {
+            "value": "F",
+            "truth": "false"
+        }
+     ]
+    },
+    {
+     "id": "2",   
+     "figure": "what word is defined by the following",
+     "question": "to put an end to",
+     "choices": [
+        {
+            "value": "abate",
+            "truth": "true"
+        },
+        {
+            "value": "F",
+            "truth": "false"
+        },
+        {
+            "value": "F",
+            "truth": "false"
+        },
+        {
+            "value": "F",
+            "truth": "false"
+        }
+     ]
+    },
+    {
+     "id": "3",
+     "figure": "what word is defined by the following",
+     "question": "a female superior or governess of a nunnery",
+     "choices": [
+        {
+            "value": "abbess",
+            "truth": "true"
+        },
+        {
+            "value": "F",
+            "truth": "false"
+        },
+        {
+            "value": "F",
+            "truth": "false"
+        },
+        {
+            "value": "F",
+            "truth": "false"
+        }
+     ]
+    },
+    {
+     "id": "4",
+     "figure": "what word is defined by the following",
+     "question": "a monastery or society of people",
+     "choices": [
+        {
+            "value": "abbey",
+            "truth": "true"
+        },
+        {
+            "value": "F",
+            "truth": "false"
+        },
+        {
+            "value": "F",
+            "truth": "false"
+        },
+        {
+            "value": "F",
+            "truth": "false"
+        }
+     ]
+    }
+]
