@@ -20,7 +20,8 @@ export class QuestionSetPage implements OnInit {
   }
 
   startTest() {
-    this.router.navigate(['/question-set/question'], { state: { data: {} } })
+    const question = this.questionSet
+    this.router.navigate(['/question-set/question'], { state: { data: { question } } })
   }
 
 }

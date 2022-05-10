@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 import { Question } from './question.model';
 
@@ -8,16 +9,17 @@ import { Question } from './question.model';
   styleUrls: ['./question.page.scss'],
 })
 export class QuestionPage implements OnInit {
+  questions = history.state.data.question
+
 
   constructor() { }
 
   ngOnInit() {
+    console.log(this.questions)
+    console.log(this.questions[0].choices[0].value)
   }
 
-  gradeQuestion(question: Question, userChoice: string){
-    if(question.choices[0].value == userChoice)
-      return true;
-    else
-      return false;
+  submit() {
+
   }
 }
