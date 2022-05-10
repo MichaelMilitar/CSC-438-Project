@@ -10,7 +10,8 @@ import { QuestionSetService } from './question-set.service';
 export class QuestionSetPage implements OnInit {
   questionSet: QuestionSet;
   constructor( private questionSetService:QuestionSetService ) { 
-    this.questionSet = questionSetService.getQuestions('math')
+    this.questionSet = questionSetService.getQuestions('english')
+    //this.questionSet = questionSetService.getQuestions('math')
     console.log(this.questionSet)
   }
 
