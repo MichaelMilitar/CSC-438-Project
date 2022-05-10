@@ -40,9 +40,11 @@ export class LoginPage implements OnInit {
 
       //API call to sign in user
       console.log("Logged In");
+      this.router.navigate(['/subject'])
     } else {
       //API call to register user
       console.log("Registered");
+      this.router.navigate(['/subject'])
     }
   }
 
