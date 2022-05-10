@@ -1,28 +1,13 @@
 export class Question{
-    constructor (
+    constructor(
         public id: string,
         public figure: string,
         public question: string,
-        public defition: string,
-        public choices : [
-            {
-                value: string,
-                truth: string
-            },
-            {
-                value: string,
-                truth: string
-            },
-            {
-                value: string,
-                truth: string
-            },
-            {
-                value: string,
-                truth: string
-            }
-        ]   
-    )
-    {}
-
+        public choices: [
+            { value: string; truth: string; },
+            { value: string; truth: string; },
+            { value: string; truth: string; },
+            { value: string; truth: string; }
+        ]
+    ) {}
 }
