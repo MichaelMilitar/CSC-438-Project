@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { QuestionSet } from './question-set.model';
 import { QuestionSetService } from './question-set.service';
 
@@ -9,14 +10,17 @@ import { QuestionSetService } from './question-set.service';
 })
 export class QuestionSetPage implements OnInit {
   questionSet: QuestionSet;
-  constructor( private questionSetService:QuestionSetService ) { 
-    this.questionSet = questionSetService.getQuestions('english')
-    //this.questionSet = questionSetService.getQuestions('math')
+  constructor(private questionSetService: QuestionSetService, private router: Router) {
+    this.questionSet = questionSetService.getQuestions(history.state.data.subject)
     console.log(this.questionSet)
   }
 
   ngOnInit() {
-    
+    console.log(history.state.data.subject)
+  }
+
+  startTest() {
+    this.router.navigate(['/question-set/question'], { state: { data: {} } })
   }
 
 }
