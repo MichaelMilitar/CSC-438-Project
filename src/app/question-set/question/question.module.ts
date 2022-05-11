@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { QuestionPageRoutingModule } from './question-routing.module';
 
 import { QuestionPage } from './question.page';
+import {NoSanitizePipe} from './nosanitizerpipe';
 
 @NgModule({
   imports: [
@@ -15,6 +16,6 @@ import { QuestionPage } from './question.page';
     IonicModule,
     QuestionPageRoutingModule
   ],
-  declarations: [QuestionPage]
+  declarations: [QuestionPage, NoSanitizePipe]
 })
 export class QuestionPageModule {}
